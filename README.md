@@ -5,3 +5,15 @@
 Github link- https://github.com/Sattwik13/Weather_Forecast_App
 
 Deploy link- https://weather-forecast-app-sg4m.vercel.app/
+
+project-root/
+│
+├── src/                  # Main source code folder
+│   ├── input.css         # inputed Stylesheets file
+│   │── output.css        # outputed Stylesheets file
+│   │── app.js            # JavaScript files
+│   └── index.html        # Main HTML file
+│
+├── .gitignore            # maintain privacy and ignore unnecessary file upload
+├── README.md             # for note and step by step guide 
+└── package.json          # Optional, if you're using npm
