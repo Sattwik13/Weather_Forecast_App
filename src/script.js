@@ -1,5 +1,6 @@
 const API_KEY = 'f4aec554b67f124bef26544528ddea46';
 
+
 //----------------------------- DOM Element References -----------------------
 const searchBtn = document.getElementById('searchBtn');
 const currentLocationBtn = document.getElementById('currentLocationBtn');
@@ -79,7 +80,7 @@ function setLoadingState(isLoading) {
     const toastContainer = document.getElementById('toastContainer');
   
     const toast = document.createElement('div');
-    toast.className = `flex items-center max-w-xs w-full bg-${type === 'error' ? 'red' : 'green'}-500 text-white text-sm font-medium px-4 py-3 rounded-lg shadow-lg transform transition-all duration-300 opacity-0 translate-y-2`;
+    toast.className = `flex items-center max-w-xs w-full bg-${type === 'error' ? 'red' : 'green'}-500 text-black text-sm font-medium px-4 py-3 rounded-lg shadow-lg transform transition-all duration-300 opacity-0 translate-y-2`;
   
     toast.innerHTML = `
       <div class="mr-3">${type === 'error' ? '❗' : '✅'}</div>
