@@ -18,7 +18,7 @@ This is a simple and responsive **Weather Forecast App** built using **HTML**, *
 - Option to fetch weather by **current location** using Geolocation API.
 - Recent searches saved in local storage.
 - Responsive UI with **Tailwind CSS** styling.
-- Loading spinners and animated elements (GSAP/Framer Motion optional).
+- Loading spinners and animated elements (GSAP).
 - Toast notifications for errors and actions.
 
 ---
