@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'cursive', sans-serif;
+  }
+
+main, header, footer {
+position: relative;
+z-index: 10;
+}
+
+.clear-bg {
+background: url('https://images.unsplash.com/photo-1576068070379-819c2bcd2c3a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fHN1bm55JTIwd2VhdGhlciUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D') no-repeat center center fixed;
+background-size: cover;
+}
+
+.cloudy-bg {
+background: url('https://media.istockphoto.com/id/1325033552/photo/cloudscape.webp?a=1&b=1&s=612x612&w=0&k=20&c=E7vfDzaC5CJEqdMXkLrEoT7yZAQ5j1NUsXZDKNCS-sc=') no-repeat center center fixed;
+background-size: cover;
+}
+
+.rainy-bg {
+background: url('https://images.unsplash.com/photo-1737228776805-b044c229d05b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njh8fHN0b3JteSUyMHdlYXRoZXIlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww') no-repeat center center fixed;
+background-size: cover;
+}
+
+.snowy-bg {
+background: url('https://images.unsplash.com/photo-1706197376508-a70e6924f0c3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c25vd3klMjB3ZWF0aGVyJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D') no-repeat center center fixed;
+background-size: cover;
+}
+
+.stormy-bg {
+background: url('https://media.istockphoto.com/id/1270504858/photo/lightning-during-summer-storm.webp?a=1&b=1&s=612x612&w=0&k=20&c=jhEFuorUzyukwhP0jzER9ndax07IGy-Tp38yrlvQ2i4=') no-repeat center center fixed;
+background-size: cover;
+}
+
+.default-bg {
+background: url('https://media.istockphoto.com/id/1161558711/photo/blurred-whirlwind-in-the-clouds.webp?a=1&b=1&s=612x612&w=0&k=20&c=Gvc4yRfg3oqaNw1rbX2rVnvi8UAKUgR1pjkUZ1uDrjw=') no-repeat center center fixed;
+background-size: cover;
+}
